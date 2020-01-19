@@ -4,7 +4,7 @@ FILTER function
 a = [0, 1, 2, 3, 4, 5]
 def even(a):
     if(a % 2 == 0):
-        return a
+        return 1
 b = list(filter(even, a))
 print(b)
 

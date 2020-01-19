@@ -16,4 +16,3 @@ a = [0, 1, 2, 3, 4, 5]
 
 c = list(filter(lambda a : a % 2 == 0,a))
 print(c)
-

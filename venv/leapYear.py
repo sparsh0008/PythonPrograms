@@ -1,5 +1,6 @@
 def main():
-    year = 2012
+    print("Enter a year")
+    year = int(input())
     if(year%4 )== 0:
         if(year%100 == 0):
             if(year%400 == 0):
@@ -13,3 +14,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

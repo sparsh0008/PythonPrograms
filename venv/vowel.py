@@ -1,5 +1,6 @@
-print("enter a string")
-char = input()
-vowels = [ char[i] for i in range(len(char)) if (char[i] == 'a' or char[i] == 'e'or char[i] == 'i'or  char[i] == 'o'or  char[i] == 'u')]
-print("The vowels in the string is ")
-print(vowels)
+char = input("enter a string")
+
+vowels = [ char[i] for i in range(len(char)) if (char[i] in ('a', 'e','i','o','u') )]
+
+print("No of Vowels in the string is ")
+print(len(vowels))

@@ -2,17 +2,13 @@ class Parrot:
 
     def __init__(self, name):
         self.name = name
-        #self.age = age
-
 
     def sing(self, song):
         print("{0} sings {1} song".format(self.name, song))
-        return 0
 
 
     def dance(self):
         print("{0} is now dancing".format(self.name))
-        return 0
 
 def main():
     MithuObj = Parrot("Mithu")
